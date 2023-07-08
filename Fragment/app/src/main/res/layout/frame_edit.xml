@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E91E63">
+
+    <EditText
+        android:id="@+id/edit_frame_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"
+        android:hint="NAME"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:padding="12dp"
+        android:layout_margin="12dp"/>
+
+    <EditText
+        android:id="@+id/edit_frame_surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"
+        android:hint="SURNAME"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:padding="12dp"
+        android:layout_margin="12dp"/>
+
+    <Button
+        android:id="@+id/btn_frame_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="SEND"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:padding="12dp"
+        android:layout_margin="12dp"/>
+
+</LinearLayout>
